@@ -62,7 +62,7 @@ body {
 /* LIGHT MODE AND DARK MODE START */
 /* Light Mode */
 body {
-    background-color: #f2f2f2;
+    background-color: #ebeaea;
     color: #161616;
 }
 
@@ -75,7 +75,7 @@ button {
 
 /* Dark Mode */
 body.dark-mode {
-    background-color: #0f0f0f;
+    background-color: #181818;
     color: white;
 
 }
@@ -174,12 +174,15 @@ button img {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     letter-spacing: 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 #heading img {
     height: 50px;
     width: 50px;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 .first p {
@@ -537,7 +540,7 @@ circle {
     height: 70vh;
     width: 100%;
     position: fixed;
-    background-color: #ffffff;
+    background-color: #fafafa;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
